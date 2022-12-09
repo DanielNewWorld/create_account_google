@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonJS",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework"
+        ],
+        "target": "ES2018", 
+        "allowJs": true,
+        "esModuleInterop": true
+    }
+}
